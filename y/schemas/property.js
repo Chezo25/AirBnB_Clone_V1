@@ -84,7 +84,18 @@ export default {
             name: 'description',
             title: 'Description',
             type: 'string',
-        }
+        },
+        {
+            name: 'host',
+            title: 'Host',
+            type: 'host',
+        },
+        {
+            name: 'reviews',
+            title: 'Reviews',
+            type: 'array',
+            of: [{ type: 'reviews' }]
+        },
 
     ]
 }
