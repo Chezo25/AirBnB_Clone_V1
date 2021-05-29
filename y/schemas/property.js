@@ -55,6 +55,21 @@ export default {
             name: 'pricePerNight',
             title: 'Price Per Night',
             type: 'number',
+        },
+        {
+            name: 'beds',
+            title: 'Beds',
+            type: 'number',
+        },
+        {
+            name: 'bedrooms',
+            title: 'Bedrooms',
+            type: 'number',
+        },
+        {
+            name: 'slug',
+            title: 'Slug',
+            type: 'slug',
         }
     ]
 }
