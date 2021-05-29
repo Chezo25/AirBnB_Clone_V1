@@ -9,6 +9,8 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import property from './property'
 import propertyImage from './propertyImage'
 import reviews from './reviews'
+import traveller from './traveller'
+import person from './person'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -20,6 +22,8 @@ export default createSchema({
         /* Your types here! */
         property,
         propertyImage,
-        reviews
+        reviews,
+        traveller,
+        person
     ]),
 })
