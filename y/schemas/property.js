@@ -73,7 +73,18 @@ export default {
             options: {
                 source: 'title',
                 maxLength: 500,
-            }
+            },
+        },
+        {
+            name: 'id',
+            title: 'ID',
+            type: 'number',
+        },
+        {
+            name: 'description',
+            title: 'Description',
+            type: 'string',
         }
+
     ]
 }
