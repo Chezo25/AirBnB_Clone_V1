@@ -1,4 +1,4 @@
-import { sanityClient } from './sanity';
+import { sanityClient } from '../sanity';
 
 export default function Home() {
     return ( <
