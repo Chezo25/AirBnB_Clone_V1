@@ -23,6 +23,17 @@ export default {
             title: 'ID',
             type: 'number',
         },
+        {
+            name: 'image',
+            title: 'Image',
+            type: 'image',
+        },
 
-    ]
+    ],
+    preview: {
+        select: {
+            title: 'id',
+            media: 'image' //can be name as well
+        }
+    }
 }

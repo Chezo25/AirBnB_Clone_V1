@@ -1,6 +1,6 @@
 export default {
     name: 'property',
-    title: 'propertyname',
+    title: 'Property',
     type: 'document',
     fields: [{
             name: 'propertyname',
@@ -85,11 +85,11 @@ export default {
             title: 'Description',
             type: 'string',
         },
-        //  {
-        //      name: 'host',
-        //      title: 'Host',
-        //       type: 'host',
-        //   },
+        {
+            name: 'host',
+            title: 'Host',
+            type: 'host',
+        },
         {
             name: 'reviews',
             title: 'Reviews',
